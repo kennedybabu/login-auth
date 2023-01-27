@@ -1,0 +1,45 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    background-color: rgb(14, 14, 80);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: whitesmoke;
+    padding: 1rem 4rem;
+    
+
+    .footer-links {
+        list-style: none;
+        display: flex;
+        
+        li {
+            margin: 5px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 540px) {
+    .footer {
+        padding: 1rem 2rem;
+
+        
+        h2 {
+            font-size: medium;
+        }
+    
+        small {
+            font-size: 10px;
+        }
+    
+        li {
+            font-size: 12px;
+            margin: 3px;
+        }
+    }
+
+    
+}

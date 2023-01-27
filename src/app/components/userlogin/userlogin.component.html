@@ -1,0 +1,12 @@
+<div class="form-wrapper">
+    <form [formGroup]="loginForm" (ngSubmit)="loginUser()">
+        <h2 class="header">login</h2>
+        <input type="email" formControlName="email" class="form-control" name="email" placeholder="Enter email" id="email">
+        <input type="password" formControlName="password" name="password" class="form-control" placeholder='Enter password' id="password">
+        <div class="tray">
+            <button class="btn btn-primary">login</button>
+            <a href="">Forgot password ?</a>
+        </div>
+        <a routerLink="/signup">not yet signed up? signup</a>
+    </form>    
+</div>

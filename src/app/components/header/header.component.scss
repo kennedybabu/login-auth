@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+    background-color: rgb(116, 116, 133);
+    color: rgb(255, 255, 255);    
+
+    .navbar-brand {
+        color: aliceblue;
+    }  
+
+    .nav-link {
+        color: aliceblue;
+    }
+
+    #navbarNav {
+        float: right;
+    }  
+
+    .container-fluid {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
